@@ -6,7 +6,23 @@ const PORT = 3000;
 
 const { users, documents, employees } = require('./data');
 
+
+
 // --- MIDDLEWARE ---
+const loggingMiddleware = (req, res, next) => {
+  // Отримуємо поточний час, HTTP метод та URL запиту
+  const timestamp = new Date().toISOString();
+  const method = req.method;
+  const url = req.url;
+
+  // Виводимо інформацію в консоль
+  console.log(`[${timestamp}] ${method} ${url}`);
+
+  // ВАЖЛИВО: передаємо управління наступному middleware
+  // Якщо не викликати next(), обробка запиту "зависне" на цьому місці
+
+  next();
+};
 const authMiddleware = (req, res, next) => {
   // Отримуємо дані для входу з заголовків запиту
   const login = req.headers['x-login'];
@@ -48,6 +64,8 @@ const adminOnlyMiddleware = (req, res, next) => {
 // Middleware для автоматичного парсингу JSON-тіла запиту
 // Це необхідно для роботи POST-запитів
 app.use(express.json());
+
+app.use(loggingMiddleware);
 
 // --- МАРШРУТИ ДЛЯ РЕСУРСІВ --
 
