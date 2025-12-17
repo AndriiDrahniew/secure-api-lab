@@ -22,9 +22,9 @@ npm test
 ## Хід виконання
 ![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20193312.png)
 
-![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20103748.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20103748.png)
 
-![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20103821.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20103821.png)
 
 ![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20104037.png)
 
