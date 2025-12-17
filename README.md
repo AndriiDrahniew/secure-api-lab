@@ -1,6 +1,6 @@
 # Лабораторно-практична робота №3
-### Цей проєкт реалізує REST API. 
-### API підтримує аутентифікацію та авторизацію за ролями, а також демонструє роботу з основними HTTP-методами.
+Цей проєкт реалізує REST API. 
+API підтримує аутентифікацію та авторизацію за ролями, а також демонструє роботу з основними HTTP-методами.
 ## Встановлення та запуск
 ```
 npm install
@@ -19,6 +19,30 @@ npm test
 ├─ .gitignore       # ігнорування node_modules та службових файлів
 └─ package.json     # маніфест проєкту
 ```
+## Хід виконання
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20193312.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20103748.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20103821.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20104037.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20104052.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20111625.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20111751.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20111831.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20111958.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20113825.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20114545.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20114733.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125313.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125312.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125344.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125548.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125632.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125850.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20125957.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20130341.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20130514.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-11%20130831.png)
+
 ## Таблиця ендпоінтів
 | Метод | URL | Опис | Заголовки (Auth) | Тіло запиту (JSON) | Коди відповіді |
 |--------|-----|------|------------------|--------------------|----------------|
