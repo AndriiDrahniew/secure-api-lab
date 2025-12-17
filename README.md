@@ -46,7 +46,7 @@ npm test
 
 ![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20125313.png)
 
-![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20125312.png)
+![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20125313.png)
 
 ![Photo](https://github.com/AndriiDrahniew/secure-api-lab/blob/main/screenshots/Screenshot%202025-11-12%20125344.png)
 
